@@ -2,7 +2,7 @@
 
 Este repositório contém a implementação prática de um protocolo de transferência confiável de dados utilizando o algoritmo **Go-Back-N (GBN)** construído diretamente sobre a camada de transporte **UDP** (não confiável). 
 
-O projeto foi desenvolvido para a disciplina de **Redes de Computadores I** do curso de Engenharia de Computação da **Universidade Federal de Mato Grosso (UFMT)**.
+O projeto foi desenvolvido para a disciplina de **Redes de Computadores I** do curso de Ciência da Computação da **Universidade Federal de Alfena (UNIFAL)**.
 
 ## Integrantes do Grupo
 * **Eurico Santiago Climaco Rodrigues**
@@ -75,29 +75,6 @@ java -cp Emissor/target/classes org.example.segmento.emissor.Emissor <caminho_ar
 java -cp Emissor/target/classes org.example.segmento.emissor.Emissor origem_200k.bin 127.0.0.1:5000:target/destino.bin 8 0.05
 ```
 
----
-
-## Automação dos Experimentos e Testes
-
-Para coletar métricas de vazão (throughput), tempos de transferência e número de retransmissões de forma automática, foi desenvolvido o script `run_experiments.py`. 
-
-Este script realiza os seguintes passos:
-1. Compila os projetos Java via Maven.
-2. Cria arquivos de teste calibrados.
-3. Executa as instâncias de Emissor e Receptor variando o tamanho da janela $N$ e a taxa de perda $p$.
-4. Salva gráficos comparativos na pasta `relatorio_assets/`.
-5. Exibe tabelas formatadas em LaTeX no terminal.
-
-Para rodar a bateria de experimentos automatizada, execute:
-```bash
-python3 run_experiments.py
-```
-
-Os gráficos gerados serão salvos em:
-* `relatorio_assets/grafico_n.png`: Desempenho (tempo e vazão) variando a janela $N$.
-* `relatorio_assets/grafico_p.png`: Desempenho (tempo e retransmissões) variando a perda $p$.
-
----
 
 ## Resumo dos Resultados de Desempenho
 

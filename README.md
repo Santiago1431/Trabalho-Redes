@@ -25,9 +25,6 @@ O projeto é dividido em dois módulos Maven principais escritos em Java:
 Para compilar e executar o projeto, você precisará de:
 * **Java Development Kit (JDK) 17** ou superior.
 * **Apache Maven** instalado.
-* **Python 3** e biblioteca `matplotlib` (apenas para rodar o script de experimentos automatizados).
-* **pdflatex** (apenas se desejar recompilar o relatório LaTeX localmente).
-
 ---
 
 ## Compilação dos Módulos

@@ -2,7 +2,7 @@
 
 Este repositório contém a implementação prática de um protocolo de transferência confiável de dados utilizando o algoritmo **Go-Back-N (GBN)** construído diretamente sobre a camada de transporte **UDP** (não confiável). 
 
-O projeto foi desenvolvido para a disciplina de **Redes de Computadores I** do curso de Ciência da Computação da **Universidade Federal de Alfena (UNIFAL)**.
+O projeto foi desenvolvido para a disciplina de **Redes de Computadores ** do curso de Ciência da Computação da **Universidade Federal de Alfena (UNIFAL)**.
 
 ## Integrantes do Grupo
 * **Eurico Santiago Climaco Rodrigues**
